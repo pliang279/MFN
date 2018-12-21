@@ -3,7 +3,7 @@ Code for Memory Fusion Network (MFN), AAAI 2018
 
 This repository includes data, code and pretrained models for the AAAI 2018 paper, "Memory Fusion Network for Multi-view Sequential Learning"
 
-Requirements:
+Requirements: </br>
 Python 2.7 </br>
 PyTorch 0.4.0 </br>
 numpy 1.13.3 </br>
