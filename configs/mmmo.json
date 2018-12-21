@@ -1,0 +1,128 @@
+{
+	"lr_encoder": 0.02,
+	"lr_decoder": 0.01,
+	"lr_ztof": 0.05,
+	"lr_pred": 0.05,
+	"lr_dense": 0.05,
+	"decay_encoder": 0.1,
+	"decay_decoder": 0.0,
+	"decay_ztof": 0.2,
+	"decay_pred": 0.2,
+	"decay_dense": 0.2,
+	"n_epochs": 50,
+	"optimizer": "adam",
+	"seqlength": 20,
+	"batchsize": 256,
+	"num_modalities": 3,
+	"cellsizes": [64,16,32],
+	"inputdims": [300,74,36],
+	"memsize": 128,
+	"zy_size": 64,
+	"fa1_size": 64,
+	"fa2_size": 16,
+	"fa3_size": 32,
+	"fy_size": 64,
+	"lda_x1": 0.1,
+	"lda_x2": 0.1,
+	"lda_x3": 0.1,
+	"lda_za1": 0.1,
+	"lda_za2": 0.1,
+	"lda_za3": 0.1,
+	"lda_zy": 0.1,
+	"sigma": 1.0,
+	"num_attentions": 3,
+	"alpha": 0.5,
+	"beta": 0.5,
+	"last_to_zyFCNN": {
+		"layers": 0,
+		"shapes": [],
+		"drop": [0.2],
+		"activation": ["relu"]
+	},
+	"attFCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"unattFCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"attentionConfig": {
+        "contextSize": 2,
+        "attFCNNConfig": {
+            "NN1": {
+                "layers": 1,
+                "shapes": [256],
+                "activation": "relu",
+                "drop": [0.5,0.5]
+            },
+            "NN2": {
+                "layers": 1,
+                "shapes": [64],
+                "activation": "relu",
+                "drop": [0.5,0.5]
+            },
+            "gamma1": {
+                "layers": 1,
+                "shapes": [64],
+                "activation": "relu",
+                "drop": [0.5,0.5]
+            },
+            "gamma2": {
+                "layers": 1,
+                "shapes": [64],
+                "activation": "relu",
+                "drop": [0.5,0.5]
+            }
+        }
+    },
+	"za1_to_fa1FCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"za2_to_fa2FCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"za3_to_fa3FCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"zy_to_fyFCNN": {
+		"layers": 1,
+		"shapes": [128],
+		"drop": [0.2,0.2],
+		"activation": ["relu"]
+	},
+	"sentFCNN": {
+		"layers": 1,
+		"shapes": [64],
+		"drop": [0.5,0.0],
+		"activation": ["relu"]
+	},
+	"tracks": {
+		"text": {
+			"inputdim": 300,
+			"csize": 64
+		},
+		"audio": {
+			"inputdim": 74,
+			"csize": 16
+		},
+		"video": {
+			"inputdim": 36,
+			"csize": 32
+			
+		}
+	}
+}
