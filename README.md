@@ -1,5 +1,5 @@
 # Memory-Fusion-Network
-Code for Memory Fusion Network (MFN), AAAI 2018
+Code for Memory Fusion Network (MFN), AAAI 2018, https://arxiv.org/abs/1802.00927
 
 This repository includes data, code and pretrained models for the AAAI 2018 paper, "Memory Fusion Network for Multi-view Sequential Learning"
 
