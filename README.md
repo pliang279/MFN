@@ -11,7 +11,7 @@ Pretrained models: pretrained MFN models optimized for MAE (Mean Absolute Error)
 
 Installation
 
-First check that the requirements are satisfied
+First check that the requirements are satisfied: </br>
 Python 2.7 </br>
 PyTorch 0.4.0 </br>
 numpy 1.13.3 </br>
@@ -21,7 +21,7 @@ If not, these packages can be installed using pip.
 
 The next step is to clone the repository:
 ```bash
-git clone
+git clone https://github.com/pliang279/Memory-Fusion-Network.git
 ```
 
 You can run the code with
@@ -35,10 +35,10 @@ Next steps: we are in the process of integrating the model with the latest versi
 If you use this code, please cite our paper:
 
 ```bash
-@article{zadeh2018memory, </br>
-  title={Memory Fusion Network for Multi-view Sequential Learning}, </br>
-  author={Zadeh, Amir and Liang, Paul Pu and Mazumder, Navonil and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe}, </br>
-  journal={Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence}, </br>
-  year={2018} </br>
+@article{zadeh2018memory,
+  title={Memory Fusion Network for Multi-view Sequential Learning},
+  author={Zadeh, Amir and Liang, Paul Pu and Mazumder, Navonil and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe},
+  journal={Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence},
+  year={2018}
 }
 ```
