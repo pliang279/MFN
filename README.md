@@ -4,9 +4,9 @@ Code for Memory Fusion Network (MFN), AAAI 2018
 This repository includes data, code and pretrained models for the AAAI 2018 paper, "Memory Fusion Network for Multi-view Sequential Learning"
 
 Requirements:
-Python 2.7 \n
-PyTorch 0.4.0 \n
-numpy 1.13.3 \n
+Python 2.7 </br>
+PyTorch 0.4.0 </br>
+numpy 1.13.3 </br>
 sklearn 0.20.0
 
 Data: we have included preprocessed data from the CMU-MOSI dataset for multimodal sentiment analysis. These are found in data/X_train.h5, data/y_train.h5 etc. To be consistent with previously reported results on the CMU-MOSI dataset, we used the exact same dataset as used in the baselines. We are in the process of integrate the model with the latest version of the CMU-MOSI and CMU-MOSEI datasets which can be found at https://github.com/A2Zadeh/CMU-MultimodalSDK/
@@ -21,9 +21,9 @@ Next steps: we are in the process of integrating the model with the latest versi
 
 If you use this code, please cite our paper:
 
-@article{zadeh2018memory, \n
-  title={Memory Fusion Network for Multi-view Sequential Learning}, \n
-  author={Zadeh, Amir and Liang, Paul Pu and Mazumder, Navonil and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe}, \n
-  journal={Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence}, \n
-  year={2018} \n
+@article{zadeh2018memory, </br>
+  title={Memory Fusion Network for Multi-view Sequential Learning}, </br>
+  author={Zadeh, Amir and Liang, Paul Pu and Mazumder, Navonil and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe}, </br>
+  journal={Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence}, </br>
+  year={2018} </br>
 }
