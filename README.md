@@ -11,10 +11,10 @@ Pretrained models: pretrained MFN models optimized for MAE (Mean Absolute Error)
 
 Installation
 
-First check that the requirements are satisfied: </br>
-Python 2.7 </br>
-PyTorch 0.4.0 </br>
-numpy 1.13.3 </br>
+First check that the requirements are satisfied:</br>
+Python 2.7</br>
+PyTorch 0.4.0</br>
+numpy 1.13.3</br>
 sklearn 0.20.0
 
 If not, these packages can be installed using pip.
