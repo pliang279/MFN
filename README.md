@@ -43,5 +43,4 @@ If you use this code, please cite our paper:
 }
 ```
 
-
 Also, be on the lookout for the Pytorch code of Multi-Attention Recurrent Network (https://arxiv.org/abs/1802.00923), Graph-MFN (http://aclweb.org/anthology/P18-1208), and Gated Attention LSTM (https://arxiv.org/abs/1802.00924) which will be released soon.
