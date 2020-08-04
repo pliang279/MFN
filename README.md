@@ -43,4 +43,9 @@ If you use this code, please cite our paper:
 }
 ```
 
-Also, be on the lookout for the Pytorch code of Multi-Attention Recurrent Network (https://arxiv.org/abs/1802.00923), Graph-MFN (http://aclweb.org/anthology/P18-1208), and Gated Attention LSTM (https://arxiv.org/abs/1802.00924) which will be released soon.
+Related papers and repositories building upon these datasets:
+CMU-MOSEI dataset: [paper](http://aclweb.org/anthology/P18-1208), [code](https://github.com/A2Zadeh/CMU-MultimodalSDK/)</br>
+Multi-Attention Recurrent Network: [paper](https://arxiv.org/abs/1802.00923), [code](https://github.com/A2Zadeh/CMU-MultimodalSDK/)</br>
+Graph-MFN: [paper](http://aclweb.org/anthology/P18-1208), [code](https://github.com/A2Zadeh/CMU-MultimodalSDK/)</br>
+Multimodal Transformer: [paper](https://arxiv.org/abs/1906.00295), [code](https://github.com/yaohungt/Multimodal-Transformer)</br>
+Multimodal Cyclic Translations: [paper](https://arxiv.org/abs/1812.07809), [code](https://github.com/hainow/MCTN)
